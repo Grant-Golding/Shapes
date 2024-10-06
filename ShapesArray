@@ -1,0 +1,20 @@
+package Module4;
+
+public class ShapeArray {
+    public static void main(String[] args) {
+        Shape rect1 = new Rectangle(15, 20);
+
+        Shape circ1 = new Circle(1.5);
+
+        Shape Tri1 = new Triangle(5, 5, 5);
+
+        Shape[] shapeArray = {rect1, circ1, Tri1};
+
+        for (Shape shape : shapeArray) {
+            System.out.println(shape.toString());
+        }
+    }
+}
+
+
+
